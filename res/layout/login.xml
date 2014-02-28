@@ -77,7 +77,7 @@
             android:background="@null"
             android:digits="@string/password_digits"
             android:imeOptions="actionDone"
-            android:password="true"
+            android:inputType="textPassword"
             android:singleLine="true" />
 
         <Button
@@ -196,7 +196,7 @@
             style="@drawable/checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@id/labelautorun"/>
+            android:layout_toLeftOf="@id/labelautorun" />
     </RelativeLayout>
 
 </RelativeLayout>

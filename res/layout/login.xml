@@ -159,44 +159,4 @@
             android:checked="true" />
     </RelativeLayout>
 
-    <RelativeLayout
-        android:id="@+id/option2"
-        android:layout_width="263dip"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/option"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dip"
-        android:paddingLeft="20dip"
-        android:paddingRight="20dip" >
-
-        <CheckBox
-            android:id="@+id/hidelogin"
-            style="@drawable/checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/hidelogin"
-            android:text="隐身登录" />
-
-        <TextView
-            android:id="@+id/labelautorun"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:text="开机启动" />
-
-        <CheckBox
-            android:id="@+id/autorun"
-            style="@drawable/checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toLeftOf="@id/labelautorun" />
-    </RelativeLayout>
-
 </RelativeLayout>

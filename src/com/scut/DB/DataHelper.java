@@ -9,6 +9,7 @@ public class DataHelper {
 	private static DataHelper instance;
 	private final String dbName = "tuji";
 
+	//在SharedPreferences中判断是否保存有账号密码
 	private DataHelper(Context context) {
 		this.context = context;
 	}

@@ -1,5 +1,7 @@
 package com.scut.tuji.Activity;
 
+import com.scut.tuji.R;
+
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;

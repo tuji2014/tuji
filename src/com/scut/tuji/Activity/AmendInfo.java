@@ -1,5 +1,7 @@
 package com.scut.tuji.Activity;
 
+import com.scut.tuji.R;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;

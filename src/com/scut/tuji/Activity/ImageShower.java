@@ -1,10 +1,12 @@
 package com.scut.tuji.Activity;
 
 	
-	import android.app.Activity;
-	import android.os.Bundle;
-	import android.os.Handler;
-	import android.view.MotionEvent;
+	import com.scut.tuji.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.view.MotionEvent;
 
 
 	public class ImageShower extends Activity {

@@ -129,6 +129,7 @@ public final class R {
         public static final int password_digits=0x7f050003;
     }
     public static final class style {
+        public static final int AnimHead=0x7f060004;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -155,5 +156,11 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        /**  模糊 
+         */
+        public static final int ImageScale=0x7f060003;
+        /** 背景是否模糊
+         */
+        public static final int ImageloadingDialogStyle=0x7f060002;
     }
 }

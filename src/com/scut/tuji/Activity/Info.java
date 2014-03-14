@@ -1,5 +1,6 @@
 package com.scut.tuji.Activity;
 
+import android.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +11,7 @@ public class Info extends Activity {
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_info);              
+        setContentView(R.layout.activity_list_item);              
     }
 
    public void btn_back(View v) {     //标题栏 返回按钮

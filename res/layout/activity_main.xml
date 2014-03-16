@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/mainbodytop"
         android:gravity="center" >
-
+        
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
@@ -65,8 +65,7 @@
                 android:id="@+id/mainpagebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:background="@drawable/mainpage" />
+                android:background="@drawable/mainpage_btn" />
         </LinearLayout>
 
         <LinearLayout
@@ -79,8 +78,7 @@
                 android:id="@+id/recommendbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/mainpagebtn"
-                android:background="@drawable/recommend" />
+                android:background="@drawable/recommend_btn" />
         </LinearLayout>
 
         <LinearLayout
@@ -93,22 +91,7 @@
                 android:id="@+id/userinfobtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/recommendbtn"
-                android:background="@drawable/userinfo" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal" >
-
-            <Button
-                android:id="@+id/searchtuji"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/userinfobtn"
-                android:background="@drawable/moreinfo" />
+                android:background="@drawable/userinfo_btn" />
         </LinearLayout>
     </LinearLayout>
 

@@ -1,4 +1,4 @@
-package com.scut.DB;
+package com.scut.tuji.DB;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -5,5 +5,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="password_digits">           ._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="mainpage">主页</string>
+    <string name="recommend">推荐</string>
+    <string name="userinfo">个人</string>
 
 </resources>

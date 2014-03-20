@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/hometop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbodytop"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/addtuji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btn_addtuji" />
+
+        <Button
+            android:id="@+id/searchtuji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_searchtuji" />
+
+        <TextView
+            android:id="@+id/mainpagetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/mainpage"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/mainpagexiala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mainpagetext"
+            android:background="@drawable/expand" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/homeList"
+        android:layout_below="@id/hometop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#FFFF99"
+        android:divider="#FCCC" 
+        android:dividerHeight="1.0dip">
+    </ListView>
+
+
+</RelativeLayout>

@@ -9,43 +9,6 @@
         android:background="#FFFFFF"
         android:orientation="vertical" >
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/mainbodytop"
-            android:gravity="center" >
-
-            <Button
-                android:id="@+id/addtuji"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:background="@drawable/btn_addtuji" />
-
-            <Button
-                android:id="@+id/searchtuji"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:background="@drawable/btn_searchtuji" />
-
-            <TextView
-                android:id="@+id/mainpagetext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:text="@string/mainpage"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-
-            <Button
-                android:id="@+id/mainpagexiala"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/mainpagetext"
-                android:background="@drawable/expand" />
-        </RelativeLayout>
-
         <FrameLayout
             android:id="@android:id/tabcontent"
             android:layout_width="fill_parent"

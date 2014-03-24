@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <FrameLayout
+        android:id="@+id/fl_login_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF8C00" 
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btn_login_back"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:background="@drawable/login_back_btn"
+            android:rotation="90" />
+    </FrameLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:orientation="horizontal" 
+            android:layout_below="@id/fl_login_bar"
+            android:layout_centerHorizontal="true">
+
+            <!-- 标题 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题" />
+
+            <!-- 标题输入框 -->
+
+            <EditText
+                android:id="@+id/et_title"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- 内容输入框 -->
+        <FrameLayout 
+            android:id="@+id/fl_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_title"
+            android:layout_centerHorizontal="true">
+            
+	        <EditText
+	            android:id="@+id/et_content"
+	            android:layout_width="200dip"
+	            android:layout_height="wrap_content"
+	            android:lines="4"
+	            android:maxLength="140"
+	            android:minLines="4"
+	            android:textSize="15sp" />
+	
+	        <TextView
+	            android:id="@+id/tv_word_num_remain"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="right|bottom"
+	            android:text="140x" />
+
+        </FrameLayout>
+        
+        <LinearLayout
+            android:id="@+id/ll_add_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/add_picture_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_picture" />           
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/ll_add_picture"
+            android:layout_centerHorizontal="true" >
+
+            <!-- 地点 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地点" />
+
+            <!-- 地点输入框 -->
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+            
+        <Button
+            android:id="@+id/btn_save_tuji"
+            android:layout_width="120dip"
+            android:layout_height="40dip" 
+            android:layout_below="@id/ll_address"
+            android:layout_centerHorizontal="true"
+            android:text="保存"/>
+
+
+</RelativeLayout>

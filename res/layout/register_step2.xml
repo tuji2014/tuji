@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+    android:background="#e8e8e8"
+    android:orientation="vertical" >
+    
+            <RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="48dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/title_bar"
+  			android:gravity="center_vertical"  >
+  			<Button
+            	android:id="@+id/login_reback_btn"
+            	android:layout_width="48dp"
+            	android:layout_height="48dp"
+            	android:layout_centerVertical="true"
+            	android:textColor="#fff"
+            	android:onClick="btn_back"
+           		android:background="@drawable/mm_title_back_normal"/>  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="填写验证码"
+        		android:layout_centerInParent="true"
+        		android:textSize="23sp"		
+				android:textColor="#ffffff" /> 			
+		</RelativeLayout>
+		
+            		
+        <RelativeLayout 
+               android:layout_width="fill_parent"
+  	           android:layout_height="fill_parent"
+  	           android:gravity="center_horizontal" >
+            <TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="我们已发送验证码短信到这个号码"
+        		android:layout_marginTop="58dp"
+        		android:textSize="16sp"		
+				android:textColor="#333333" /> 	
+        </RelativeLayout>
+        
+                <RelativeLayout 
+               android:layout_width="fill_parent"
+  	           android:layout_height="fill_parent"
+  	           android:gravity="center_horizontal" >
+            <TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="+86 13512341234"
+        		android:layout_marginTop="78dp"
+        		android:textSize="16sp"		
+				android:textColor="#333333" /> 	
+        </RelativeLayout>
+        
+       <RelativeLayout 
+               android:layout_width="fill_parent"
+  	           android:layout_height="fill_parent"
+  	           android:gravity="center_horizontal" >        
+            <EditText 
+	    android:id="@+id/register_phone"
+	    android:gravity="center_horizontal"
+	    android:layout_width="119dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/login_top_layout"
+	    android:textColor="#666666"
+	    android:textSize="18sp"
+	    android:layout_marginTop="120dp"
+	    android:singleLine="true"
+	    android:background="@drawable/login_editbox"
+	    android:hint="请输入验证码"/>
+</RelativeLayout>
+ <RelativeLayout 
+               android:layout_width="fill_parent"
+  	           android:layout_height="fill_parent"
+  	           android:gravity="center_horizontal" >
+            <TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="收不到验证码？"
+        		android:layout_marginTop="168dp"
+        		android:textSize="13sp"		
+				android:textColor="#006699" /> 	
+        </RelativeLayout>
+        
+<RelativeLayout 
+	   	android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="210dp"
+	    android:gravity="center_horizontal" >
+	     <Button
+	        android:id="@+id/register_step2_btn"
+	        android:layout_width="225dp"
+	        android:layout_height="32dp"
+	        android:layout_alignParentRight="true"
+	        android:text="提交"
+	        android:background="#FFBB33"
+	        android:textColor="#ffffff"
+	        android:textSize="18sp"
+	        android:onClick="register_step2"
+	        />
+	     </RelativeLayout>
+       
+</RelativeLayout>
